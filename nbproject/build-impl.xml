@@ -443,7 +443,7 @@ or ant -Dj2ee.platform.classpath=&lt;server_classpath&gt; (where no properties f
                         <propertyref prefix="test-sys-prop."/>
                         <mapper from="test-sys-prop.*" to="*" type="glob"/>
                     </syspropertyset>
-                    <formatter type="brief" usefile="false"/>
+                    <formatter type="brief" usefile="true"/>
                     <formatter type="xml"/>
                     <jvmarg value="-ea"/>
                     <jvmarg line="${run.jvmargs.ide}"/>
