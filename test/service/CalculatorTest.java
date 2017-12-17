@@ -50,4 +50,13 @@ public class CalculatorTest {
         assertEquals(expResult, result);
     }
     
+    @Test
+    public void testSum2() {
+        int number1 = 1;
+        int number2 = 20;
+        Calculator instance = new Calculator();
+        int expResult = 21;
+        int result = instance.sum(number1, number2);
+        assertEquals(expResult, result);
+    }
 }
