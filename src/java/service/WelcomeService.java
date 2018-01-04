@@ -11,6 +11,7 @@ package service;
  */
 public class WelcomeService {
     public WelcomeService() {
+        System.out.println("Nothing");
     }
     
     public String welcome(String user) {
