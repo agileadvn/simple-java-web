@@ -11,7 +11,6 @@ package service;
  */
 public class WelcomeService {
     public WelcomeService() {
-        // TODO
     }
     
     public String welcome(String user) {
