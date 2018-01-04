@@ -38,7 +38,7 @@ public class WelcomeServlet extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Welcome</title>");            
+            out.println("<title>Welcome user</title>");            
             out.println("</head>");
             out.println("<body>");
             String content = welcomeService.welcome(request.getParameter("user"));
