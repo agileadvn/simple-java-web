@@ -59,4 +59,14 @@ public class CalculatorTest {
         int result = instance.sum(number1, number2);
         assertEquals(expResult, result);
     }
+    
+    @Test
+    public void testSum3() {
+        int number1 = 1;
+        int number2 = 21;
+        Calculator instance = new Calculator();
+        int expResult = 22;
+        int result = instance.sum(number1, number2);
+        assertEquals(expResult, result);
+    }
 }
