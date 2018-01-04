@@ -45,7 +45,7 @@ public class CalculatorTest {
         int number1 = 10;
         int number2 = 20;
         Calculator instance = new Calculator();
-        int expResult = 30;
+        int expResult = 40;
         int result = instance.sum(number1, number2);
         assertEquals(expResult, result);
     }
