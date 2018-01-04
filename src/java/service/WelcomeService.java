@@ -10,9 +10,6 @@ package service;
  * @author hien
  */
 public class WelcomeService {
-    public WelcomeService() {
-        System.out.println("Nothing");
-    }
     
     public String welcome(String user) {
         return "Welcome " + user + "!";
